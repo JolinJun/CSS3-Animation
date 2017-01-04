@@ -1,0 +1,91 @@
+.clearfix:after{content: '';display: block;height: 0;overflow: hidden;clear: both;}
+.container{width:534px;height:335px;background:#d55e40 ;border-radius:16px;position:relative;margin: 50px auto;}
+.container:before{content: '';position: absolute;bottom: 20px;left:-3px;height:90px;border-right:5px solid #d55e40;border-top:10px solid transparent;border-bottom: 10px solid transparent;}
+.container:after{content: '';position: absolute;bottom: 20px;right:-3px;height:90px;border-left:5px solid #d55e40;border-top:10px solid transparent;border-bottom: 10px solid transparent;}
+.screws .screw{width:22px;height:22px;position: absolute;background: #8b392e;border-radius: 50%;}
+.screws .screw-tl{top:5px;left:10px;}
+.screws .screw-tr{top:5px;right:10px;}
+.screws .screw-bl{bottom:5px;left:10px;}
+.screws .screw-br{bottom: 5px;right:10px;}
+.screws .screw .screw-inner{position: absolute;top:3px;left:3px;display: block;width:16px;height:16px;transform: rotate(50deg);-webkit-transform: rotate(50deg);-moz-transform: rotate(50deg)}
+.screws .screw .screw-inner:before,.screws .screw .screw-inner:after{content: '';background: #449ba2;border-radius:2px;position: absolute;width: 5px;height:100%;}
+.screws .screw .screw-inner:before{left:50%;margin-left: -2px;}
+.screws .screw .screw-inner:after{top:50%;margin-top: -20%;height:40%;width:100%;}
+.outer-sticker{width:474px;height:210px;border-radius: 16px;background:#8b392e;position: relative;margin:0 auto;top: 25px;overflow: hidden;}
+.sticker{width:466px;height:200px;margin: 5px auto;background: #f3ae53;border-radius: 16px;}
+.sticker-header{padding: 10px 20px 0;width:100%}
+.sticker-header .side{float: left;margin:15px 0;width:26px;height:32px;line-height:32px;text-align: center;color:#f3ae53;background: #d55e40;border-radius:5px;font-size: 22px;font-weight:bold;}
+.sticker-header .line{width:88%;float: right;}
+.sticker-header .line hr{border:none;height:3px;background: #756046;margin-bottom: 15px;}
+.sticker-center{width: 100%;position: relative;height:90px;}
+.sticker-center .stripe-a{width:100%;height:30px;background:#8b392e;position: absolute;left:0;top:0; }
+.sticker-center .stripe-b{width:100%;height:30px;background: #449ba2;position: absolute;bottom: 0;left:0;}
+.sticker-center .cassete-center{width:318px;height:90px;margin: 0 auto;background:#d55e40;border-radius: 16px;position: relative;}
+.sticker-center .cassete-center .circle{width:65px;height:65px;border-radius: 50%;background: #fff;position: absolute;top:50%;margin-top: -32px;animation: spin .8s infinite linear;-webkit-animation:spin .8s infinite linear;-moz-animation: spin .8s infinite linear; }
+.sticker-center .cassete-center .circle.left{left:5%}
+.sticker-center .cassete-center .circle.right{right:5%}
+.sticker-center .cassete-center .circle i{display: block;width:5%;height:55%;position:absolute;left:45%;top:-5%;border-top:solid 17px #d55e40;transform-origin: 50% 100%;-webkit-transform-origin: 50% 100%;-moz-transform-origin: 50% 100%;  }
+.sticker-center .cassete-center .circle i.i1{transform: rotate(30deg);-webkit-transform: rotate(30deg);-moz-transform: rotate(30deg)}
+.sticker-center .cassete-center .circle i.i2{transform: rotate(90deg);-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg)}
+.sticker-center .cassete-center .circle i.i3{transform: rotate(150deg);-webkit-transform: rotate(150deg);-moz-transform: rotate(150deg)}
+.sticker-center .cassete-center .circle i.i4{transform: rotate(210deg);-webkit-transform: rotate(210deg);-moz-transform: rotate(210deg)}
+.sticker-center .cassete-center .circle i.i5{transform: rotate(270deg);-webkit-transform: rotate(270deg);-moz-transform: rotate(270deg)}
+.sticker-center .cassete-center .circle i.i6{transform: rotate(330deg);-webkit-transform: rotate(330deg);-moz-transform: rotate(330deg)}
+.sticker-center .cassete-center .window{width:122px;height:60px;position: absolute;left:50%;margin-left: -61px;background: #fff;margin-top: 15px;border-radius:5px;overflow: hidden;}
+.sticker-center .cassete-center .reel{width:190px;height:190px;border-radius: 50%;background: #8b392e;position: absolute;top:-60px;animation: spin .8s infinite linear;-webkit-animation:spin .8s infinite linear;-moz-animation: spin .8s infinite linear;}
+.sticker-center .cassete-center .reel.left{left:-150px}
+.sticker-center .cassete-center .reel.right{right:-150px;}
+.sticker-bottom{width:456px;margin: 8px auto;border-width:1px 0;border-color: #363844;border-style: solid;height:23px;line-height:23px;text-align: center;position: relative;}
+.sticker-bottom p{width:150px;height:3px;background: #363844;position: absolute;top:50%;margin-top: -1px;}
+.sticker-bottom p.left{left:0}
+.sticker-bottom p.right{right:0}
+.bottom-outer{width:350px;height:0;position: absolute;bottom: 0;left:50%;margin-left: -175px;border-bottom: 80px solid #8b392e;border-left:20px solid transparent;border-right:20px solid transparent;}
+.bottom-outer .bottom{width: 340px;height:0;border-bottom:80px solid #d55e40;border-left:20px solid transparent;border-right:20px solid transparent;position: absolute;top:8px;left:50%;margin-left: -170px; }
+.bottom-outer .bottom .screw{position: absolute;top:17px;left:50%;margin-left: -11px;}
+.bottom-outer .bottom .holes .hole{background: #fff;border-radius:50%;position: absolute;box-shadow:#8b392e -2px 2px 0px;-webkit-box-shadow: #8b392e -2px 2px 0px;-moz-box-shadow: #8b392e -2px 2px 0px }
+.bottom-outer .bottom .hole.hole-big{width:25px;height:25px;bottom:-70px;}
+.bottom-outer .bottom .hole.hole-small{width:20px;height:20px;bottom: -50px;}
+.bottom-outer .bottom .hole.hole1{left:20px;}
+.bottom-outer .bottom .hole.hole2{right:20px;}
+.bottom-outer .bottom .hole.hole3{left:70px;}
+.bottom-outer .bottom .hole.hole4{right:70px;}
+
+/*滚动旋转动画*/
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+}
+@-moz-keyframes spin {
+    0%{
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+    }
+}
+@-webkit-keyframes spin {
+    0%{
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+    }
+}
+
+
