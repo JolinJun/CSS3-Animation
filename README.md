@@ -1,2 +1,2 @@
-# CSS3-
-使用CSS3技术实现动画
+# CSS3 animation
+使用html5及CSS3技术实现动画
